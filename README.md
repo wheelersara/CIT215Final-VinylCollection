@@ -1,4 +1,5 @@
-Final CRUD Project Documentation
+Final CRUD Project Documentation: 
+
 For my final project, I was inspired to create a vinyl record collection “catalog”, as I have recently begun collecting vinyl records, and thought this would be a great way to display and keep track of the ones that I own as my collection grows. 
 To implement this, and follow the CRUD guidelines, I used functions and jQuery to carry out the methods Create, Read, Update, and Delete.
 To Create a new vinyl, I made a function “getNewVinyl” containing jquery and methods to dynamically update the HTML layout. Within the HTML, there are input fields in the aside element for the user to enter in the information for a new vinyl, and press an “add vinyl” button to create the new vinyl object, and append the attributes to a new card. The function then appends the input to the elements with the ID’s associated with their input fields. Once the button is pressed to create the new vinyl, the push() method is used to add a new vinyl to the vinyl array.

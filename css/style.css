@@ -1,0 +1,174 @@
+@font-face {
+    font-family: "actionis";
+    src: url("fonts/actionis.ttf");
+}
+
+@font-face {
+    font-family: "poppins-regular";
+    src: url("fonts/Poppins-Regular.ttf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: auto;
+    width: 100%;
+    background-color: #faffb5;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+header{
+    height: 125px;
+    width: 100%;
+    background-color: #121440;
+    border: 8px solid #F23005;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+header h1{
+    color: white;
+    font-family: "actionis";
+    font-size: 72px;
+}
+
+aside{
+    min-height: 600px;
+    height: auto;
+    background-color: #eadfe3;
+    width: 25%;
+    border: 3px solid #e17ea3 ;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    
+}
+
+aside input{
+    width: 70%;
+    height: 40px;
+    margin: 10px;
+    border: 2px solid #F25C05;
+}
+
+aside button{
+    width: 70%;
+    height: 40px;
+    margin: 10px;
+    background-color: #F25C05;
+    border-radius: 30px;
+    color: white;
+    font-size: 18px;
+}
+
+aside h1{
+    color: #121440;
+    font-size: 25px;
+    text-align: center;
+    margin: 5px;
+    font-family: "poppins-regular";
+    
+}
+
+aside h3{
+    color: #070935;
+    font-size: 18px;
+    text-align: left;
+    margin: 5px;
+    font-family: "poppins-regular";
+}
+
+article{
+    min-height: 700px;
+    height: auto;
+    background-color: #eadfe3;
+    width: 75%;
+    border: 3px solid #e17ea3 ;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.cardbox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    height: auto;
+    min-height: 450px;
+    width: 30%;
+    margin: 10px;
+    background-color: #ffffff;
+    text-align: center;
+    border: 5px solid #F25C05;
+    border-radius: 10px;
+}
+
+.card h2{
+    margin: 15px;
+    font-size: 28px;
+    color: #070935;
+    font-family: "poppins-regular";
+}
+
+.card p{
+    margin: 5px;
+    font-size: 18px;
+    color: #121440;
+    font-family: "arial";
+    margin: 25px;
+}
+
+.card img{
+    height: 150px;
+    width: auto;
+    margin: 5px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    gap: 10px;
+}
+
+.buttons button{
+    width: 150px;
+    height: 20px;
+    background-color: #21256f;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid #121440;
+}
+
+.updateDetails button{
+    width: 150px;
+    height: 20px;
+    background-color: #21256f;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid #121440;
+    margin: 15px;
+}
